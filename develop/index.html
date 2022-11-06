@@ -13,12 +13,12 @@
 
 <body>
 
-    <!--header section changes: 
-        1. changed first <div> element to <header> 
-        2. changed "website" to "Hori"
-        3. changed <div> to <nav>
-        4. changed spacing of <li> tag so on one line each
-    -->
+<!--header section changes: 
+    1. changed first <div> element to <header> 
+    2. changed "website" to "Hori"
+    3. changed <div> to <nav>
+    4. changed spacing of <li> tag so on one line each
+-->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav>
@@ -43,10 +43,8 @@
     
     <!-- content section changes:
         1. removed id selectors
-        2. consolidated <section> for boxed contents since similar CSS 
-        3. consolidated <img> for images since similar CSS
-        4. consolidated <h2> for heading 2 since similar CSS
-        5. added alt attributes to images
+        2. consolidated <section> for 3 boxed contents since similar CSS 
+        3. added alt attributes to images
     -->
     <section class="content">
         <section class="content-sections">
@@ -66,40 +64,39 @@
         </section>
     </section>
 
-
-    <div class="benefits">
-        <div class="benefit-lead">
+    <!-- benefits section changes:
+        1. consolidated <section> for 1 boxed benefits since similar CSS
+        2. added alt attributes to images
+    -->
+    <section class="benefits">
+        <section class="benefits-section">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
-        </div>
-        <div class="benefit-brand">
+            <img src="./assets/images/lead-generation.png" alt="A black image with half a sun on top of a upside down triangle that has a arrow pointing down towards a cicle with dollar symbol inside."/>
+            <p>Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.</p>
+        </section>
+        <section class="benefits-section">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
-            <p>
-                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-            </p>
-        </div>
-        <div class="benefit-cost">
+            <img src="./assets/images/brand-awareness.png" alt="A black image of a light bulb head with a body that is wearing a tie."/>
+            <p>Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.</p>
+        </section>
+        <section class="benefits-section">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" />
-            <p>
-                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-            </p>
-        </div>
-    </div>
-
+            <img src="./assets/images/cost-management.png" alt="A black image of three circles with dollar signs within them. Two of the circles are filled in black with clear dollar sign and one of the circles is filled in clear with a black dollar sign. A turning mechanism is imaged behind the circles."/>
+            <p>As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.</p>
+        </section>
+    </section>
 </main>
 
+<!--footer section changes: 
+    1. changed <div> element to <footer> 
+    2. 
+    3. 
+    4. 
+-->
+    <footer>
+        <h4>Made with ❤️️ by Horiseon</h4>
+        <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
+    </footer>
 
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p>
-    </div>
 </body>
-
 </html>

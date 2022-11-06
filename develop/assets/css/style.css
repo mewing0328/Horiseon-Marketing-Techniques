@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/*changed ".header" class selector to "header" element selector*/
+/*changed ".header div" class selector to "header" element selector*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -70,10 +70,10 @@ a {
     margin-left: 20px;
 }
 
-/*consolidated:
+/*consolidated the content section:
     1. replaced ".search-engine-optimization", "online-reputation-management", "social-media-marketing" as class selector with ".content-sections"
     2. replaced subsequent ".[...] img" as class selectors of above with ".content-sections img"
-    3. replaced subsequent ".[...] h2" as class selectors of above with ".content-sections h2"
+    3. replaced subsequent ".[...] h2" as class selectors of above with "h2" element selector
 */
 .content-sections {
     margin-bottom: 20px;
@@ -88,7 +88,7 @@ a {
     max-height: 200px;
 }
 
-.content-sections h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -107,19 +107,11 @@ p {
     font-size: 16px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*consolidated the benefits section:
+    1. replaced ".benefit-lead" ".benefit-brand" ".benefit-cost" as class selectors with ".benefits-section"
+    2. replaced subsequent ".[...] img" as class selectors of above with ".benefits-section img"
+    3. deleted subsequent "[..] h3" "[..] h3" "[..] h3" and created h3 element selector
+*/
 
 .benefits {
     margin-right: 20px;
@@ -132,62 +124,31 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefits-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefits-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-.footer {
+/*changed ".footer" class selector to "footer" element selector*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/*changed ".footer h2" class selector to "h4" element selector*/
+h4 {
     font-size: 20px;
 }
