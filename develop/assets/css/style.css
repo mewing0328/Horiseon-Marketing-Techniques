@@ -136,22 +136,21 @@ h4 {
 
 /* 
 element selectors changed:
-    1.".header div" class selector to "header" element selector
-    2.".header h1" class selector to "h1" element selector
-    3.".header h1 .seo* class selector to "seo" element selector
-    4.".header div" class selector to "nav" element selector
-    5.".header div ul" class selector to "ul" element selector
-    6.".header div ul li" class selector to "li" element selector
+    1. changed ".header div" class selector to "header" element selector
+    2. changed ".header h1" class selector to "h1" element selector
+    3. changed ".header h1 .seo* class selector to "seo" element selector
+    4. changed ".header div" class selector to "nav" element selector
+    5. changed ".header div ul" class selector to "ul" element selector
+    6. changed ".header div ul li" class selector to "li" element selector
     7. replaced "[.search-engine-optimization", "online-reputation-management", "social-media-marketing] h2" as class selectors of above with "h2" element selector
     8. deleted subsequent "[".benefit-lead" ".benefit-brand" ".benefit-cost"] h3" and created h3 element selector
     9. changed ".footer" class selector to "footer" element selector
     10. changed ".footer h2" class selector to "h4" element selector
 
 class selectors consolidated changes:
-    1.re-ordered selectors to align with order of html elements/tags
-    2.replaced ".search-engine-optimization", "online-reputation-management", "social-media-marketing" as class selector with ".content-sections"
-    3. replaced "[.search-engine-optimization", "online-reputation-management", "social-media-marketing] img" as class selectors of above with ".content-sections img"
-    4. replaced ".benefit-lead" ".benefit-brand" ".benefit-cost" as class selectors with ".benefits-section"
-    5. replaced subsequent "[".benefit-lead" ".benefit-brand" ".benefit-cost"] img" as class selectors of above with ".benefits-section img"
-    6. 
+    11. re-ordered selectors to align with order of html elements/tags
+    12. replaced ".search-engine-optimization", "online-reputation-management", "social-media-marketing" as class selector with ".content-sections"
+    13. replaced "[.search-engine-optimization", "online-reputation-management", "social-media-marketing] img" as class selectors of above with ".content-sections img"
+    14. replaced ".benefit-lead" ".benefit-brand" ".benefit-cost" as class selectors with ".benefits-section"
+    15. replaced subsequent "[".benefit-lead" ".benefit-brand" ".benefit-cost"] img" as class selectors of above with ".benefits-section img"
 */
