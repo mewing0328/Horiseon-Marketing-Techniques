@@ -1,5 +1,5 @@
-/*<!--To see detailed notes of revisions made to Instructor starter code, please scroll to bottom of style.css*/
-
+/*<!--View detailed NOTES OF REVISIONS made to starter code, scroll to BOTTOM of style.css*/
+/*UNIVERSAL selectors*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -11,6 +11,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*header is a navigation pane. Three subjects that have placeholder links*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,11 +19,13 @@ header {
     color: #ffffff;
 }
 
+/*h1 is the name of the company "Horiseon" note the logo image*/
 h1{
     display: inline-block;
     font-size: 48px;
 }
 
+/*nav includes the ul of 3 li items for the navigation pane*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -45,6 +48,7 @@ a {
     text-decoration: none;
 }
 
+/*refer to the content section in the index.html. css for 3 blue horizontal rectangle on left side of page.*/
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -54,11 +58,13 @@ p {
     font-size: 16px;
 }
 
+/*refer to the benefits section in the index.html. css for the 1 light blue vertical rectangle on the right side of the page.*/
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*refer to the footer section in the index.html. */
 footer {
     padding: 30px;
     clear: both;
@@ -71,10 +77,13 @@ h4 {
 }
 
 /*CLASS selectors*/
+
+/*creates the different color for the seo part of the text*/
 .seo {
     color: #d9dcd6;
 }
 
+/*applied to the img within the figure*/
 .hero {
     height: 800px;
     width: 100%;
@@ -83,6 +92,7 @@ h4 {
     background-position: center;
 }
 
+/*refer to the content section in index.html*/
 .content {
     width: 75%;
     display: inline-block;
@@ -111,6 +121,8 @@ h4 {
     float: right;
     margin-left: 25px;
 }
+
+/*refer to the benefits section in index.html*/
 
 .benefits {
     margin-right: 20px;
