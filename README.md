@@ -1,7 +1,10 @@
 # Week-1-Challenge---ME
 MaSandra Ewing's Week 1 Challenge
 
+#Links
 
+Credit to pkriengsiri's README.md file. I used it as an example to write out my README.md for this project. 
+[Link to the code repository](https://github.com/pkriengsiri/horiseon-code-refactor)
 
 
 NOTES: Copied below README from instructor docs

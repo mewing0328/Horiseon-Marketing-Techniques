@@ -1,4 +1,4 @@
-/*Copied starter code from Instructor file*/
+/*<!--To see detailed notes of revisions made to Instructor starter code, please scroll to bottom of style.css*/
 
 * {
     box-sizing: border-box;
@@ -6,11 +6,11 @@
     margin: 0;
 }
 
+/*ELEMENT selectors*/
 body {
     background-color: #d9dcd6;
 }
 
-/*changed ".header div" class selector to "header" element selector*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,18 +18,11 @@ header {
     color: #ffffff;
 }
 
-/*changed ".header h1" class selector to "h1" element selector*/
 h1{
     display: inline-block;
     font-size: 48px;
 }
 
-/*changed ".header h1 .seo* class selector to "seo" element selector*/
-.seo {
-    color: #d9dcd6;
-}
-
-/*changed ".header div" class selector to "nav" element selector*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,12 +31,10 @@ nav {
     font-size: 20px;
 }
 
-/*changed ".header div ul" class selector to "ul" element selector*/
 ul {
     list-style-type: none;
 }
 
-/*changed ".header div ul li" class selector to "li" element selector*/
 li {
     display: inline-block;
     margin-left: 25px;
@@ -54,7 +45,36 @@ a {
     text-decoration: none;
 }
 
-/*removed the "background-image:" (see html changes with <figure> <img>)*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+/*CLASS selectors*/
+.seo {
+    color: #d9dcd6;
+}
+
 .hero {
     height: 800px;
     width: 100%;
@@ -63,18 +83,12 @@ a {
     background-position: center;
 }
 
-/*re-ordered selectors to align with order of html elements/tags*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/*consolidated the content section:
-    1. replaced ".search-engine-optimization", "online-reputation-management", "social-media-marketing" as class selector with ".content-sections"
-    2. replaced subsequent ".[...] img" as class selectors of above with ".content-sections img"
-    3. replaced subsequent ".[...] h2" as class selectors of above with "h2" element selector
-*/
 .content-sections {
     margin-bottom: 20px;
     padding: 50px;
@@ -88,11 +102,6 @@ a {
     max-height: 200px;
 }
 
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .float-left {
     float: left;
     margin-right: 25px;
@@ -102,16 +111,6 @@ h2 {
     float: right;
     margin-left: 25px;
 }
-
-p {
-    font-size: 16px;
-}
-
-/*consolidated the benefits section:
-    1. replaced ".benefit-lead" ".benefit-brand" ".benefit-cost" as class selectors with ".benefits-section"
-    2. replaced subsequent ".[...] img" as class selectors of above with ".benefits-section img"
-    3. deleted subsequent "[..] h3" "[..] h3" "[..] h3" and created h3 element selector
-*/
 
 .benefits {
     margin-right: 20px;
@@ -129,26 +128,30 @@ p {
     color: #ffffff;
 }
 
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 .benefits-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*changed ".footer" class selector to "footer" element selector*/
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
+/* 
+element selectors changed:
+    1.".header div" class selector to "header" element selector
+    2.".header h1" class selector to "h1" element selector
+    3.".header h1 .seo* class selector to "seo" element selector
+    4.".header div" class selector to "nav" element selector
+    5.".header div ul" class selector to "ul" element selector
+    6.".header div ul li" class selector to "li" element selector
+    7. replaced "[.search-engine-optimization", "online-reputation-management", "social-media-marketing] h2" as class selectors of above with "h2" element selector
+    8. deleted subsequent "[".benefit-lead" ".benefit-brand" ".benefit-cost"] h3" and created h3 element selector
+    9. changed ".footer" class selector to "footer" element selector
+    10. changed ".footer h2" class selector to "h4" element selector
 
-/*changed ".footer h2" class selector to "h4" element selector*/
-h4 {
-    font-size: 20px;
-}
+class selectors consolidated changes:
+    1.re-ordered selectors to align with order of html elements/tags
+    2.replaced ".search-engine-optimization", "online-reputation-management", "social-media-marketing" as class selector with ".content-sections"
+    3. replaced "[.search-engine-optimization", "online-reputation-management", "social-media-marketing] img" as class selectors of above with ".content-sections img"
+    4. replaced ".benefit-lead" ".benefit-brand" ".benefit-cost" as class selectors with ".benefits-section"
+    5. replaced subsequent "[".benefit-lead" ".benefit-brand" ".benefit-cost"] img" as class selectors of above with ".benefits-section img"
+    6. 
+*/
