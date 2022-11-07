@@ -6,7 +6,7 @@ The marketing agency project is an on-the-job ticket in which I **refactored** a
 
 ### Tasks completed
 ```
-Improved the long-term sustainability of the codebase by:
+* Improved the long-term sustainability of the codebase by:
 * Tested links for correct functionality
 * Removed redundancies in index.html and style.css
 * Revised the title element to include a concise, descriptive title
@@ -20,14 +20,15 @@ Improved the long-term sustainability of the codebase by:
 ```
 
 ## Links
-* [My Deployed Website](Link to the code live site)
-* [My Code Repository](Link to the code repo)
+[My Deployed Website](https://mewing0328.github.io/Horiseon-Marketing-Techniques/)
+
+[My Code Repository](https://github.com/mewing0328/Horiseon-Marketing-Techniques)
 
 ## References and tutorials utilized 
 * [Make a README](https://www.makeareadme.com/)
 * [How to Write a Good README File](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+* [Grammarly](https://app.grammarly.com/) to check for grammar and spelling.
 * Credit to [pkriengsiri's README.md file](https://github.com/pkriengsiri/horiseon-code-refactor). I used it as an example to write out my README.md for this project.
-* [Grammarly](https://app.grammarly.com/)to check for grammar and spelling.
 
 ## Usage
 The layout is designed for desktop viewing. A resolution smaller than 768px will not render some elements properly.
