@@ -34,9 +34,6 @@ The layout is designed for desktop viewing. Resolution smaller than 768px will n
 ## Contributing
 Pull requests are welcome for recommendations for optimizing screen size.
 
-## Badges
-[![GitHub stars](https://github.com/mewing0328?tab=stars)]
-
 ## Client Mock-up
 
 ![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/01-html-css-git-homework-demo.png)
