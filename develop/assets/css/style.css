@@ -1,5 +1,3 @@
-/*<! NOTES OF REVISIONS made to starter code at BOTTOM of style.css*/
-
 /*UNIVERSAL selectors*/
 * {
     box-sizing: border-box;
@@ -7,7 +5,6 @@
     margin: 0;
 }
 
-/*ELEMENT selectors*/
 body {
     background-color: #d9dcd6;
 }
@@ -18,6 +15,11 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+}
+
+/*creates the different color for the seo part of the text*/
+.seo {
+    color: #d9dcd6;
 }
 
 /*h1 is the name of the company "Horiseon" note the logo image*/
@@ -47,42 +49,6 @@ li {
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-/* -- content section -- 3 blue horizontal rectangle on left side of page.*/
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-p {
-    font-size: 16px;
-}
-
-/* -- benefits section -- 1 light blue vertical rectangle on the right side of the page.*/
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* -- footer section -- */
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-h4 {
-    font-size: 20px;
-}
-
-
-/*CLASS selectors*/
-
-/*creates the different color for the seo part of the text*/
-.seo {
-    color: #d9dcd6;
 }
 
 /*applied to the img within the figure*/
@@ -124,6 +90,34 @@ h4 {
     margin-left: 25px;
 }
 
+/* -- content section -- 3 blue horizontal rectangle on left side of page.*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* -- benefits section -- 1 light blue vertical rectangle on the right side of the page.*/
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* -- footer section -- */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+}
+
 /* -- benefits section -- */
 
 .benefits {
@@ -148,23 +142,19 @@ h4 {
     max-width: 150px;
 }
 
-/* NOTES OF REVISIONS
-element selectors changed:
-    1. changed ".header div" class selector to "header" element selector
-    2. changed ".header h1" class selector to "h1" element selector
-    3. changed ".header h1 .seo* class selector to "seo" element selector
-    4. changed ".header div" class selector to "nav" element selector
-    5. changed ".header div ul" class selector to "ul" element selector
-    6. changed ".header div ul li" class selector to "li" element selector
-    7. replaced "[.search-engine-optimization", "online-reputation-management", "social-media-marketing] h2" as class selectors of above with "h2" element selector
-    8. deleted subsequent "[".benefit-lead" ".benefit-brand" ".benefit-cost"] h3" and created h3 element selector
-    9. changed ".footer" class selector to "footer" element selector
-    10. changed ".footer h2" class selector to "h4" element selector
 
-class selectors consolidated changes:
-    11. re-ordered selectors to align with order of html elements/tags
-    12. replaced ".search-engine-optimization", "online-reputation-management", "social-media-marketing" as class selector with ".content-sections"
-    13. replaced "[.search-engine-optimization", "online-reputation-management", "social-media-marketing] img" as class selectors of above with ".content-sections img"
-    14. replaced ".benefit-lead" ".benefit-brand" ".benefit-cost" as class selectors with ".benefits-section"
-    15. replaced subsequent "[".benefit-lead" ".benefit-brand" ".benefit-cost"] img" as class selectors of above with ".benefits-section img"
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
